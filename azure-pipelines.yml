@@ -19,5 +19,5 @@ steps:
     php -version
   displayName: 'Use PHP version $(phpVersion)'
 
-- script: composer insta --no-interaction --prefer-dist
+- script: compos insta --no-interaction --prefer-dist
   displayName: 'composer insta'
